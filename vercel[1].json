@@ -1,0 +1,9 @@
+{
+  "name": "fartcoin-launcher",
+  "builds": [
+    { "src": "next.config.js", "use": "@vercel/next" }
+  ],
+  "env": {
+    "WEB3_STORAGE_API_KEY": "YOUR_WEB3_STORAGE_API_KEY_HERE"
+  }
+}
